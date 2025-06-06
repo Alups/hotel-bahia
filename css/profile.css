@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+body {
+	background: #f9f9f9;
+	font-family: "Roboto", sans-serif;
+}
+:root{
+   --main-color:#007bff;
+   --sub-color:#DCC69C;
+   --white:#fff;
+   --border:.1rem solid rgba(220, 198, 156, .3);
+}
+.cancel-button {
+	background-color: #dc3545;
+	color: #fff;
+	border: none;
+	padding: 6px 12px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+	background-color: #c82333;
+}
+
+.shadow {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-tab-nav {
+	min-width: 250px;
+}
+
+.tab-content {
+	flex: 1;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+/* CSS for the booking container */
+.booking-container {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 15px;
+  }
+  
+  /* CSS for the form-check container */
+  .form-check {
+	background-color: #f9f9f9;
+	padding: 10px;
+	border-radius: 5px;
+  }
+  
+  /* CSS for the form-check label */
+  .form-check-label p {
+	margin: 5px 0;
+  }
+  
+  /* Style the booking ID separately */
+  .form-check-label p:first-child {
+	font-weight: bold;
+	color: #007bff;
+  }
+  
+  /* Add some spacing between each booking */
+  .booking-container + .booking-container {
+	margin-top: 20px;
+  }
+  
+  /* Center the "no bookings found" message */
+  .box {
+	text-align: center;
+  }
+  
+
+.btn1{
+	display: inline-block;
+	cursor: pointer;
+	padding: 1rem 3rem;
+	border: var(--border);
+	font-size: 1.8rem;
+	color: var(--white);
+	text-align: center;
+	text-transform: capitalize;
+	transition: .2s linear;
+	margin-top: 1rem;
+	background-color: var(--main-color);
+ }
+
+.nav-pills a.nav-link {
+	padding: 15px 20px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	color: #333;
+}
+.nav-pills a.nav-link i {
+	width: 20px;
+}
+
+.img-circle img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+}
